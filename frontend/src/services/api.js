@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './authService';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000'
+  baseURL: 'https://muet-oric.onrender.com'
 });
 
 instance.interceptors.request.use(
