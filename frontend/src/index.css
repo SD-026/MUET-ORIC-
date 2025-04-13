@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black text-gray-800;
+}
+
+.btn-primary {
+  @apply px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-full 
+         font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all duration-300;
+}
+
+.btn-outline-white {
+  @apply px-6 py-3 border-2 border-white text-white rounded-full 
+         font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
