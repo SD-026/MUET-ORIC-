@@ -155,7 +155,7 @@ const Login = () => {
         </div>
 
         {/* Form Container */}
-        <div className="w-full md:w-3/5 p-8 md:p-10">
+        <div className="w-full md:w-4/5 py-8 px-4 md:p-10">
           <AnimatePresence mode="wait">
             {step === 1 && (
               <motion.div

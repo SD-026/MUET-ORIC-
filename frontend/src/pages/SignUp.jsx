@@ -204,7 +204,7 @@ const ProfessionalMUETSignupForm = () => {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-4xl bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row"
+        className="w-full  bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row"
       >
         {/* Premium Side Panel */}
         <div className="hidden md:flex md:w-2/5 bg-gradient-to-b from-blue-700 to-cyan-600 relative overflow-hidden items-center justify-center p-8">
@@ -244,7 +244,7 @@ const ProfessionalMUETSignupForm = () => {
         </div>
 
         {/* Form Container */}
-        <div className="w-full md:w-3/5 p-8 md:p-10">
+        <div className="w-full md:w-4/5 py-8 px-4 md:p-10">
           <AnimatePresence mode="wait">
             {step === 1 && (
               <motion.div
