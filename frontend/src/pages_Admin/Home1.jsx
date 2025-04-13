@@ -40,7 +40,7 @@ export default function Home() {
     fetchData();
   }, [timeFilter]);
 
-   const navigate=useNavigate()
+   
    
   const fetchData = async () => {
     try {
