@@ -442,14 +442,31 @@ const ProfessionalMUETSignupForm = () => {
                       className="w-full pl-10 pr-4 py-3 border-0 border-b-2 border-gray-200 focus:border-blue-500 focus:ring-0 bg-gray-50 rounded-t-lg appearance-none transition-all"
                       required
                     >
-                      <option value="">Select Department</option>
-                      <option value="cse">Computer Systems Engineering</option>
-                      <option value="ee">Electrical Engineering</option>
-                      <option value="me">Mechanical Engineering</option>
-                      <option value="ce">Civil Engineering</option>
-                      <option value="chem">Chemical Engineering</option>
-                      <option value="petroleum">Petroleum Engineering</option>
-                      <option value="metallurgy">Metallurgy Engineering</option>
+                     <option value="">Select Department</option>
+<option value="architecture">Architecture</option>
+<option value="bsrs">Basic Science & Related Studies</option>
+<option value="biomedical">Biomedical Engineering</option>
+<option value="cell">Centre of English Language & Linguistics</option>
+<option value="chemical">Chemical Engineering</option>
+<option value="crp">City & Regional Planning</option>
+<option value="civil">Civil Engineering</option>
+<option value="cse">Computer Systems Engineering</option>
+<option value="electrical">Electrical Engineering</option>
+<option value="electronics">Electronics Engineering</option>
+<option value="environmental">Environmental Engineering</option>
+<option value="iem">Industrial Engineering & Management</option>
+<option value="mechanical">Mechanical Engineering</option>
+<option value="mechatronics">Mechatronics Engineering</option>
+<option value="mustd">Mehran University Institute of Science, Technology & Development</option>
+<option value="metallurgy">Metallurgy & Materials Engineering</option>
+<option value="mining">Mining Engineering</option>
+<option value="petroleum">Petroleum & Natural Gas Engineering</option>
+<option value="software">Software Engineering</option>
+<option value="telecom">Telecommunication Engineering</option>
+<option value="textile">Textile Engineering</option>
+<option value="uspcasw">US-Pakistan Centre for Advanced Studies in Water</option>
+
+
                     </select>
                   </div>
 

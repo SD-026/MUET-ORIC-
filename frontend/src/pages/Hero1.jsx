@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
 
-  const navigate=useNavigate()
+ 
 
   // Inline styles for the component
   const styles = {
