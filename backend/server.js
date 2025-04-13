@@ -15,8 +15,10 @@ connectDB();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
-
+app.use(cors({
+  origin: 'https://muet-oric.onrender.com', // 🔁 Replace with your frontend's actual URL
+  credentials: true,               // Optional: allow cookies if you're using them
+}));
 
 
 
